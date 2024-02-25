@@ -2,6 +2,11 @@
 
 using namespace std;
 
+void Visitor::get_information() const {
+    std::cout << "Name: "<<name << endl;
+    std::cout << "Age: "<<age << endl;
+}
+
 Visitor::Visitor() {
     name = "None";
     age = 0;

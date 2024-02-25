@@ -15,6 +15,8 @@ private:
     int age;
 
 public:
+    void get_information() const;
+
     Visitor();
 
     Visitor(std::string name);
