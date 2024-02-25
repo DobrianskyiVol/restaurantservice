@@ -3,3 +3,7 @@
 //
 
 #include "Restaurantstaff.h"
+
+void Restaurantstaff::getname() {
+    std::cout<<"Name of employee: "<<name<<std::endl;
+}

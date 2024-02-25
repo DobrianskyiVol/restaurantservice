@@ -11,6 +11,8 @@ class Restaurantstaff {
 private:
     std::string *name;
     std:: string *positon;
+public:
+    void getname();
 };
 
 
