@@ -41,8 +41,12 @@ Restaurantstaff::~Restaurantstaff(){
     } else{
         std::cout<<"Destructor was called for nullptr "<<std::endl;
     }
-//    delete name;
-//    delete positon;
 };
+
+Restaurantstaff::Restaurantstaff() {
+    *name = "Unknown";
+    *positon = "Unknown";
+}
+//default constructor
 
 

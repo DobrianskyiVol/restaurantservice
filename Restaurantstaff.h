@@ -24,6 +24,9 @@ public:
 
     ~Restaurantstaff();
     //destructor
+
+    Restaurantstaff();
+//Default constructor
 };
 
 
