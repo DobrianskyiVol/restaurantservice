@@ -18,6 +18,9 @@ public:
 
     Restaurantstaff(const Restaurantstaff& employee);
     //copy constructor
+
+    Restaurantstaff( Restaurantstaff&& employee) noexcept;
+// move constructor
 };
 
 

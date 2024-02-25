@@ -24,4 +24,12 @@ Restaurantstaff::Restaurantstaff( const Restaurantstaff& employee)
     std::cout<<"Copy constructor was called for: "<<*name<<std::endl;
 }
 
+Restaurantstaff::Restaurantstaff( Restaurantstaff&& employee) noexcept
+        :name{employee.name},positon{employee.positon}{
+    employee.name = nullptr;
+    employee.positon = nullptr;
+    std::cout<<"move constructor was called for: "<< *name <<std::endl<<std::endl;
+}
+// move constructor
+
 
