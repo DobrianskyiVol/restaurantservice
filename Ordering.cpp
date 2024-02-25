@@ -36,6 +36,17 @@ Ordering::Ordering(int new_weight, std::string new_dish, int new_price, bool new
 };
 
 int Ordering::countoforders = 0;
+//static int
+
+Ordering Ordering::operator+(Ordering dish){
+    int weightfortwodishes = weight + dish.weight;
+    std::string twonamesdish = nameofdish + ", " + dish.nameofdish;
+    int pricefortwo = price + dish.price;
+    bool is = true;
+    return Ordering(weightfortwodishes,twonamesdish,pricefortwo,is);
+}
+
+
 
 Ordering::~Ordering(){
     std::cout <<endl<< "destructor was called"<<endl;

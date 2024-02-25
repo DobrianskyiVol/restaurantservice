@@ -29,6 +29,8 @@ public:
 
     Ordering();
 
+    Ordering operator +(Ordering dish);
+
     ~Ordering();
 };
 
