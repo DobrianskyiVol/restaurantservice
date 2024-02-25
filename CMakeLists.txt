@@ -3,4 +3,6 @@ project(restaurantservice)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(restaurantservice main.cpp)
+add_executable(restaurantservice main.cpp
+        Ordering.cpp
+        Ordering.h)
