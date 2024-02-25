@@ -67,6 +67,12 @@ build CMakeFiles/restaurantservice.dir/Visitor.cpp.obj: CXX_COMPILER__restaurant
   OBJECT_DIR = CMakeFiles\restaurantservice.dir
   OBJECT_FILE_DIR = CMakeFiles\restaurantservice.dir
 
+build CMakeFiles/restaurantservice.dir/Restaurantstaff.cpp.obj: CXX_COMPILER__restaurantservice_unscanned_Debug D$:/restaurantservice/Restaurantstaff.cpp || cmake_object_order_depends_target_restaurantservice
+  DEP_FILE = CMakeFiles\restaurantservice.dir\Restaurantstaff.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\restaurantservice.dir
+  OBJECT_FILE_DIR = CMakeFiles\restaurantservice.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target restaurantservice
@@ -75,7 +81,7 @@ build CMakeFiles/restaurantservice.dir/Visitor.cpp.obj: CXX_COMPILER__restaurant
 #############################################
 # Link the executable restaurantservice.exe
 
-build restaurantservice.exe: CXX_EXECUTABLE_LINKER__restaurantservice_Debug CMakeFiles/restaurantservice.dir/main.cpp.obj CMakeFiles/restaurantservice.dir/Ordering.cpp.obj CMakeFiles/restaurantservice.dir/Visitor.cpp.obj
+build restaurantservice.exe: CXX_EXECUTABLE_LINKER__restaurantservice_Debug CMakeFiles/restaurantservice.dir/main.cpp.obj CMakeFiles/restaurantservice.dir/Ordering.cpp.obj CMakeFiles/restaurantservice.dir/Visitor.cpp.obj CMakeFiles/restaurantservice.dir/Restaurantstaff.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\restaurantservice.dir

@@ -1,0 +1,14 @@
+//
+// Created by user on 25.02.2024.
+//
+
+#ifndef RESTAURANTSERVICE_RESTAURANTSTAFF_H
+#define RESTAURANTSERVICE_RESTAURANTSTAFF_H
+
+
+class Restaurantstaff {
+
+};
+
+
+#endif //RESTAURANTSERVICE_RESTAURANTSTAFF_H

@@ -7,4 +7,6 @@ add_executable(restaurantservice main.cpp
         Ordering.cpp
         Ordering.h
         Visitor.cpp
-        Visitor.h)
+        Visitor.h
+        Restaurantstaff.cpp
+        Restaurantstaff.h)
