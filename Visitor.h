@@ -13,6 +13,15 @@ private:
 
     std:: string name;
     int age;
+
+public:
+    Visitor();
+
+    Visitor(std::string name);
+
+    Visitor(int age);
+
+    Visitor(std::string name, int age);
 };
 
 
