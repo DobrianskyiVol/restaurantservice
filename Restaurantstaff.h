@@ -5,9 +5,12 @@
 #ifndef RESTAURANTSERVICE_RESTAURANTSTAFF_H
 #define RESTAURANTSERVICE_RESTAURANTSTAFF_H
 
+#include <iostream>
 
 class Restaurantstaff {
-
+private:
+    std::string *name;
+    std:: string *positon;
 };
 
 
