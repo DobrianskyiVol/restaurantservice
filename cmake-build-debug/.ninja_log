@@ -1,0 +1,8 @@
+# ninja log v5
+2	651	7305606754548859	CMakeFiles/restaurantservice.dir/Visitor.cpp.obj	82159e43c2c1b444
+3	700	7305606755044794	CMakeFiles/restaurantservice.dir/Restaurantstaff.cpp.obj	ec51cdda3941e82
+2	747	7305606755514902	CMakeFiles/restaurantservice.dir/Ordering.cpp.obj	53f7f2bd0986d139
+0	794	7305606755984224	CMakeFiles/restaurantservice.dir/main.cpp.obj	e1126520ea2a5dc4
+794	1059	7305606758600878	restaurantservice.exe	8a16b7e06c635b4e
+2	437	7305607122116329	CMakeFiles/restaurantservice.dir/main.cpp.obj	e1126520ea2a5dc4
+437	500	7305607122725044	restaurantservice.exe	8a16b7e06c635b4e
