@@ -33,3 +33,13 @@ ostream &operator <<(std::ostream &os, Visitor &dude){
     os<<"Name :"<<dude.name<<"\nAge: "<<dude.age<<endl;
     return os;
 };
+//stream insertion
+
+istream &operator >>(std::istream &input, Visitor &dude){
+    cout<<"Enter name: "<<endl;
+    input>>dude.name;
+    cout<<"Enter age: "<<endl;
+    input>>dude.age;
+};
+//stream extraction
+
