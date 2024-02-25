@@ -14,6 +14,8 @@ private:
     std::string nameofdish;
     int price;
     bool isonthemenu;
+public:
+    void get();
 };
 
 

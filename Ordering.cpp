@@ -1,5 +1,10 @@
-//
-// Created by user on 25.02.2024.
-//
 
 #include "Ordering.h"
+
+using namespace std;
+
+void Ordering::get() {
+    std:: cout <<" price: " <<price << endl
+               << "nameofdish: "<<nameofdish<<endl<<"weight: "<<weight<<endl;
+    std::cout << "--------------------------------------------------------------------"<<endl;
+};
