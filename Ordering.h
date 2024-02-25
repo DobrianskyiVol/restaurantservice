@@ -16,6 +16,18 @@ private:
     bool isonthemenu;
 public:
     void get();
+
+    Ordering(int new_weight, std:: string new_dish, int new_price, bool new_isonthemenu);
+
+    Ordering(int new_weight, std:: string new_dish, int new_price);
+
+    Ordering(int new_weight, std:: string new_dish);
+
+    Ordering(int new_weight);
+
+    Ordering();
+
+    ~Ordering();
 };
 
 
