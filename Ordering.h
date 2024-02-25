@@ -17,6 +17,8 @@ private:
 public:
     void get();
 
+    static int countoforders;
+
     Ordering(int new_weight, std:: string new_dish, int new_price, bool new_isonthemenu);
 
     Ordering(int new_weight, std:: string new_dish, int new_price);

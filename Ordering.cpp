@@ -31,10 +31,13 @@ Ordering::Ordering(int new_weight, std::string new_dish, int new_price) : Orderi
 // Full constructor
 Ordering::Ordering(int new_weight, std::string new_dish, int new_price, bool new_isonthemenu)
         : weight{new_weight}, nameofdish{new_dish}, price(new_price), isonthemenu(new_isonthemenu) {
- //   countoforders++;
+    countoforders++;
     std::cout<<"Full constructor"<<endl;
 };
+
+int Ordering::countoforders = 0;
 
 Ordering::~Ordering(){
     std::cout <<endl<< "destructor was called"<<endl;
 };
+
