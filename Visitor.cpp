@@ -28,3 +28,8 @@ Visitor::Visitor(std::string name, int age) {
     this->age = age;
     std::cout<<"And name and age"<<endl;
 }
+
+ostream &operator <<(std::ostream &os, Visitor &dude){
+    os<<"Name :"<<dude.name<<"\nAge: "<<dude.age<<endl;
+    return os;
+};

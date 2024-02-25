@@ -24,6 +24,9 @@ public:
     Visitor(int age);
 
     Visitor(std::string name, int age);
+
+    friend std::ostream &operator <<(std::ostream &output, Visitor &dude);
+
 };
 
 
