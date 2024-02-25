@@ -32,4 +32,17 @@ Restaurantstaff::Restaurantstaff( Restaurantstaff&& employee) noexcept
 }
 // move constructor
 
+Restaurantstaff::~Restaurantstaff(){
+//    std::cout<<"Destructor was called for: "<<name<<std::endl<<std::endl;
+    if (name!= nullptr){
+        std::cout<<"Destructor was called for: "<<*name<<std::endl;
+        delete name;
+        delete positon;
+    } else{
+        std::cout<<"Destructor was called for nullptr "<<std::endl;
+    }
+//    delete name;
+//    delete positon;
+};
+
 

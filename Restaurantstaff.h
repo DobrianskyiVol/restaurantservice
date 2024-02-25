@@ -21,6 +21,9 @@ public:
 
     Restaurantstaff( Restaurantstaff&& employee) noexcept;
 // move constructor
+
+    ~Restaurantstaff();
+    //destructor
 };
 
 
