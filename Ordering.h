@@ -5,9 +5,15 @@
 #ifndef RESTAURANTSERVICE_ORDERING_H
 #define RESTAURANTSERVICE_ORDERING_H
 
+#include <iostream>
+#include <vector>
 
 class Ordering {
-
+private:
+    int weight;
+    std::string nameofdish;
+    int price;
+    bool isonthemenu;
 };
 
 
