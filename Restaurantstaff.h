@@ -13,6 +13,11 @@ private:
     std:: string *positon;
 public:
     void getname();
+
+    Restaurantstaff(std::string new_name, std::string new_position);
+
+    Restaurantstaff(const Restaurantstaff& employee);
+    //copy constructor
 };
 
 
