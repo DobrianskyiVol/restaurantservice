@@ -40,6 +40,7 @@ istream &operator >>(std::istream &input, Visitor &dude){
     input>>dude.name;
     cout<<"Enter age: "<<endl;
     input>>dude.age;
+    return input;
 };
 //stream extraction
 

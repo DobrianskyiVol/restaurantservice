@@ -22,6 +22,14 @@ int main() {
 
     visitor.get_information();
 
+    Visitor visitor1("Name",26);
+
+    std::cout<<visitor1<<endl;
+
+    Visitor visitor2;
+
+    std::cin >> visitor2;
+
     std::cout<<"-------------------------------------------------------------"<<std::endl;
 
     Ordering ordering1(125,"steak",225);

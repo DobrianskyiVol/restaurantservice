@@ -27,6 +27,7 @@ public:
 
     friend std::ostream &operator <<(std::ostream &output, Visitor &dude);
 //stream insertion
+
     friend std::istream &operator >>(std::istream &input, Visitor &dude);
 //stream extraction
 };
