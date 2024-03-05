@@ -1,51 +1,20 @@
 #include <iostream>
 #include "Ordering.h"
-#include "Restaurantstaff.h"
+#include "Staff.h"
 #include "Visitor.h"
 #include <vector>
 
 using namespace std;
 
 int main() {
-    vector <Restaurantstaff> employees;
-    employees.push_back(Restaurantstaff{"Volodymyr","Waitor"});
 
-    employees.push_back(Restaurantstaff{"Vlad","Barmen"});
+    Waitor vova("Vova",3600,25);
 
-    employees.push_back(Restaurantstaff{"Eduard","Shef"});
+    vova.getinf();
 
-    employees.push_back(Restaurantstaff{"Eduard","Shef"});
+    Staff *Nastya = new Waitor;
 
-    std::cout<<"-------------------------------------------------------------"<<std::endl;
-
-    const Visitor visitor("Volodymyr");
-
-    visitor.get_information();
-
-    Visitor visitor1("Name",26);
-
-    std::cout<<visitor1<<endl;
-
-    Visitor visitor2;
-
-    std::cin >> visitor2;
-
-    std::cout<<"-------------------------------------------------------------"<<std::endl;
-
-    Ordering ordering1(125,"steak",225);
-
-    Ordering ordering2(125,"cake",225);
-
-    Ordering ordering3(125,"steak");
-
-    std::cout<< "How many dishes should be cooked "<<ordering1.countoforders << std::endl;
-
-    std::cout<<"-------------------------------------------------------------"<<std::endl;
-
-    Ordering ordering4 = ordering1 + ordering2;
-
-    ordering4.get();
-
+    Nastya->getinf();
 
 
 

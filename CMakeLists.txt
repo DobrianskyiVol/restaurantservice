@@ -8,5 +8,5 @@ add_executable(restaurantservice main.cpp
         Ordering.h
         Visitor.cpp
         Visitor.h
-        Restaurantstaff.cpp
-        Restaurantstaff.h)
+        Staff.cpp
+        Staff.h)
