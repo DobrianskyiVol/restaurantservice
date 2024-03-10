@@ -23,18 +23,40 @@ int main() {
 //
 //Visitor *visitor1 = new Int_visitor("Vova",18,0);
 
-unique_ptr<Visitor> visitor = make_unique<Visitor>("Vova", 18);
+//unique_ptr<Visitor> visitor = make_unique<Visitor>("Vova", 18);
+//
+//unique_ptr<Visitor> visitor1 = make_unique<Int_visitor>("Nastya",17,20);
+//
+//visitor->getinf();
+//
+//visitor1->getinf();
+//
+//shared_ptr<Visitor> visitor2 = make_shared<Visitor>();
+//
+//shared_ptr<Visitor> visitor3 = make_shared<Int_visitor>();
+//
+//visitor2->setinf();
+//
+//visitor3->setinf();
 
-unique_ptr<Visitor> visitor1 = make_unique<Int_visitor>("Nastya",17,20);
+Ordering *ordering = new Ordering();
 
-visitor->getinf();
+Ordering *ordering1 = new Drink();
 
-visitor1->getinf();
+Ordering *ordering2 = new Food();
 
-shared_ptr<Visitor> visitor2 = make_shared<Visitor>();
+    ordering->setorder();
 
-shared_ptr<Visitor> visitor3 = make_shared<Int_visitor>();
+    ordering1->setorder();
 
+    ordering2->setorder();
+
+
+ordering->getorder();
+
+ordering1->getorder();
+
+ordering2->getorder();
 
 
 

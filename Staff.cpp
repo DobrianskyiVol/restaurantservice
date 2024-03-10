@@ -44,10 +44,6 @@ Staff &Staff::operator=(const Staff &employee) {
 }
 
 
-
-
-
-
 //Class waitor: inherited from Staff
 
 void Waitor::getinf() const {

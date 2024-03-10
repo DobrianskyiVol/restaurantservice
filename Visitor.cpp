@@ -77,6 +77,11 @@ void Visitor::setinf() {
 
     std::cout<<std::endl;
 }
+
+Visitor::~Visitor() noexcept {
+    std::cout<<"Virtual visitor destructor was called;"<<std::endl;
+}
+
 Int_visitor::Int_visitor(): Int_visitor("Unknown", 0,0) {
     std::cout<<"Default base constructor was called; "<<std::endl;
 }
@@ -85,6 +90,11 @@ Int_visitor::Int_visitor(std::string &&name, int &&age, int &&phone):
     Visitor(std::move(name), std::move(age)), phone(std::make_shared<int>(phone)){
     std::cout<<"Derive constructor was called"<<std::endl;
 }
+
+Int_visitor::~Int_visitor() noexcept {
+    std::cout << "Virtual int_visitor destructor was called; "<<std::endl;
+}
+
 
 void Int_visitor::getinf() const{
     Visitor::getinf();
